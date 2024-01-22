@@ -1,0 +1,57 @@
+
+> Configure project :
+java.srcDirs = [C:\Users\scott\ADEN_GRADERS\Grader-Hashes-Full\hashes-aden-aminovs-mvla\src, C:\Users\scott\ADEN_GRADERS\Grader-Hashes-Full\hashes-aden-aminovs-mvla\javafx, C:\Users\scott\ADEN_GRADERS\Grader-Hashes-Full\hashes-aden-aminovs-mvla\main\java]
+resources.srcDirs = [C:\Users\scott\ADEN_GRADERS\Grader-Hashes-Full\hashes-aden-aminovs-mvla\src]
+java.files = [BasicIntHashLP2Test.java, MyIntHash.java]
+allJava.files = [BasicIntHashLP2Test.java, MyIntHash.java]
+resources.files = []
+allSource.files = [BasicIntHashLP2Test.java, MyIntHash.java]
+
+> Task :compileJava
+
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+BasicIntHashLP2Test > BasicHashRemove0_test() PASSED
+
+BasicIntHashLP2Test > BasicHashRemoveNoCollisions_test() PASSED
+
+BasicIntHashLP2Test > BasicHashRemoveNoCollisionsEmpty_test() PASSED
+
+BasicIntHashLP2Test > BasicHashRemoveNoCollisionsAdd_test() PASSED
+
+BasicIntHashLP2Test > BasicHashRandRemoveNoCollisions_test() PASSED
+
+BasicIntHashLP2Test > BasicHashRemoveCollision_test() PASSED
+
+BasicIntHashLP2Test > BasicHashRemoveCollisionB_test() PASSED
+
+BasicIntHashLP2Test > BasicHashRemoveCollisionAdd_test() PASSED
+
+BasicIntHashLP2Test > BasicHashRemoveRand_test() PASSED
+
+BasicIntHashLP2Test > BasicHashGrowB_test() PASSED
+
+BasicIntHashLP2Test > BasicHashGrow_test() PASSED
+
+BasicIntHashLP2Test > BasicHashGrowRand_test() PASSED
+
+BasicIntHashLP2Test > DebugHashRemoveCollision_test() PASSED
+
+BasicIntHashLP2Test > DebugHashRemoveCollision2_test() PASSED
+
+BasicIntHashLP2Test > BasicHashClearLP_test() PASSED
+
+> Task :jacocoTestReport
+
+BUILD SUCCESSFUL in 2s
+4 actionable tasks: 4 executed
+
+Gradle Time = 3

@@ -1,0 +1,61 @@
+
+> Configure project :
+java.srcDirs = [C:\Users\scott\ADEN_GRADERS\Grader-Hashes-Full\hashes-aden-aminovs-mvla\src, C:\Users\scott\ADEN_GRADERS\Grader-Hashes-Full\hashes-aden-aminovs-mvla\javafx, C:\Users\scott\ADEN_GRADERS\Grader-Hashes-Full\hashes-aden-aminovs-mvla\main\java]
+resources.srcDirs = [C:\Users\scott\ADEN_GRADERS\Grader-Hashes-Full\hashes-aden-aminovs-mvla\src]
+java.files = [BasicIntHashCuckooTest.java, MyIntHash.java]
+allJava.files = [BasicIntHashCuckooTest.java, MyIntHash.java]
+resources.files = []
+allSource.files = [BasicIntHashCuckooTest.java, MyIntHash.java]
+
+> Task :compileJava
+
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+BasicIntHashCuckooTest > BasicInit_test() PASSED
+
+BasicIntHashCuckooTest > BasicHashFunc_test() PASSED
+
+BasicIntHashCuckooTest > BasicHashFuncRand_test() PASSED
+
+BasicIntHashCuckooTest > BasicHashContains_test() PASSED
+
+BasicIntHashCuckooTest > BasicHashContainsRand_test() PASSED
+
+BasicIntHashCuckooTest > BasicHashCollision_test() PASSED
+
+BasicIntHashCuckooTest > BasicHashCollisionRand_test() PASSED
+
+BasicIntHashCuckooTest > BasicHashRemoveNoCollisions_test() PASSED
+
+BasicIntHashCuckooTest > BasicHashRandRemoveNoCollisions_test() PASSED
+
+BasicIntHashCuckooTest > BasicHashRemoveCollision_test() PASSED
+
+BasicIntHashCuckooTest > BasicHashRemoveRand_test() PASSED
+
+BasicIntHashCuckooTest > BasicHashGrow_test() PASSED
+
+BasicIntHashCuckooTest > BasicLoopHashGrow_test() PASSED
+
+BasicIntHashCuckooTest > BasicLoopHashGrowAllIndex_test() PASSED
+
+BasicIntHashCuckooTest > BasicAddDup_test() PASSED
+
+BasicIntHashCuckooTest > BasicContainsFull_test() PASSED
+
+BasicIntHashCuckooTest > BasicHashClearCuckoo_test() PASSED
+
+> Task :jacocoTestReport
+
+BUILD SUCCESSFUL in 2s
+4 actionable tasks: 4 executed
+
+Gradle Time = 3

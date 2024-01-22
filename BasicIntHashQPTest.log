@@ -1,0 +1,63 @@
+
+> Configure project :
+java.srcDirs = [C:\Users\scott\ADEN_GRADERS\Grader-Hashes-Full\hashes-aden-aminovs-mvla\src, C:\Users\scott\ADEN_GRADERS\Grader-Hashes-Full\hashes-aden-aminovs-mvla\javafx, C:\Users\scott\ADEN_GRADERS\Grader-Hashes-Full\hashes-aden-aminovs-mvla\main\java]
+resources.srcDirs = [C:\Users\scott\ADEN_GRADERS\Grader-Hashes-Full\hashes-aden-aminovs-mvla\src]
+java.files = [BasicIntHashQPTest.java, MyIntHash.java]
+allJava.files = [BasicIntHashQPTest.java, MyIntHash.java]
+resources.files = []
+allSource.files = [BasicIntHashQPTest.java, MyIntHash.java]
+
+> Task :compileJava
+
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+BasicIntHashQPTest > BasicInit_test() PASSED
+
+BasicIntHashQPTest > BasicHashFunc_test() PASSED
+
+BasicIntHashQPTest > BasicHashFuncRand_test() PASSED
+
+BasicIntHashQPTest > BasicHashContains_test() PASSED
+
+BasicIntHashQPTest > BasicHashContainsRand_test() PASSED
+
+BasicIntHashQPTest > BasicHashCollision_test() PASSED
+
+BasicIntHashQPTest > BasicHashCollisionRand_test() PASSED
+
+BasicIntHashQPTest > BasicHashRemoveNoCollisions_test() PASSED
+
+BasicIntHashQPTest > BasicHashRemoveCollisionsA_test() PASSED
+
+BasicIntHashQPTest > BasicHashRemoveCollisionsB_test() PASSED
+
+BasicIntHashQPTest > BasicHashRemoveAdd_test() PASSED
+
+BasicIntHashQPTest > BasicHashGrow_test() PASSED
+
+BasicIntHashQPTest > BasicHashClearQP_test() PASSED
+
+BasicIntHashQPTest > BasicHashGrowRand_test() PASSED
+
+BasicIntHashQPTest > BasicHashGrowAdd_test() PASSED
+
+BasicIntHashQPTest > BasicAddFull_test() PASSED
+
+BasicIntHashQPTest > BasicAddDup_test() PASSED
+
+BasicIntHashQPTest > BasicContainsFull_test() PASSED
+
+> Task :jacocoTestReport
+
+BUILD SUCCESSFUL in 3s
+4 actionable tasks: 4 executed
+
+Gradle Time = 3

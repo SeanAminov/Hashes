@@ -1,0 +1,47 @@
+
+> Configure project :
+java.srcDirs = [C:\Users\scott\ADEN_GRADERS\Grader-Hashes-Full\hashes-aden-aminovs-mvla\src, C:\Users\scott\ADEN_GRADERS\Grader-Hashes-Full\hashes-aden-aminovs-mvla\javafx, C:\Users\scott\ADEN_GRADERS\Grader-Hashes-Full\hashes-aden-aminovs-mvla\main\java]
+resources.srcDirs = [C:\Users\scott\ADEN_GRADERS\Grader-Hashes-Full\hashes-aden-aminovs-mvla\src]
+java.files = [BasicIntHashLP1Test.java, MyIntHash.java]
+allJava.files = [BasicIntHashLP1Test.java, MyIntHash.java]
+resources.files = []
+allSource.files = [BasicIntHashLP1Test.java, MyIntHash.java]
+
+> Task :compileJava
+
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :compileTestJava
+
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+
+BasicIntHashLP1Test > BasicInit_test() PASSED
+
+BasicIntHashLP1Test > BasicHashFunc_test() PASSED
+
+BasicIntHashLP1Test > BasicHashFuncRand_test() PASSED
+
+BasicIntHashLP1Test > BasicHashContains_test() PASSED
+
+BasicIntHashLP1Test > BasicHashContainsRand_test() PASSED
+
+BasicIntHashLP1Test > BasicHashCollision_test() PASSED
+
+BasicIntHashLP1Test > BasicHashCollisionRand_test() PASSED
+
+BasicIntHashLP1Test > BasicAddFull_test() PASSED
+
+BasicIntHashLP1Test > BasicContainsFull_test() PASSED
+
+BasicIntHashLP1Test > BasicAddDup_test() PASSED
+
+> Task :jacocoTestReport
+
+BUILD SUCCESSFUL in 2s
+4 actionable tasks: 4 executed
+
+Gradle Time = 3
